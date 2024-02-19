@@ -12,12 +12,12 @@
     <h2 class="text-xl text-fg-lighter">{{template "description" .}}</h2>
   </div>
 
-  <form name="tags" id="tags" class="flex flex-row md:min-w-[620px] md:max-w-[620px]">
+  <form name="tags" id="tags" class="flex flex-row">
     <label for="tags" class="w-1/2">Filter by 🏷️ tag: </label>
     <select
       name="tags"
       id="tags"
-      class="w-full border rounded-md border-fg-lighter bg-card text-fg-darker"
+      class="w-full rounded-md bg-card text-fg-darker"
       aria-label="Filter by tag"
       onchange="window.location.href = this.value"
     >
